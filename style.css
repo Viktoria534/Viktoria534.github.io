@@ -252,7 +252,7 @@ input[type="submit"] {
     top: 10px;
     right: 10px;
   }
-  .square:active {
+  .square:hover {
     background: url(images/icon\ \(6\).png) no-repeat 50% 50%;
     background-color: #2c71b8;
   }
@@ -265,7 +265,7 @@ input[type="submit"] {
     top: 50px;
     right: 10px;
   }
-  .heart:active {
+  .heart:hover {
     background: url(images/icon\ \(7\).png) no-repeat 50% 50%;
     background-color: #2c71b8;
   }
@@ -309,6 +309,11 @@ input[type="submit"] {
       margin: 0px auto;
       margin-bottom: 16px;
   }
+  .moredetails:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #2c71b8;
+    border: 1px solid white;
+}
   .addtocart {
       background-color: rgba(255, 255, 255, 0.2);
       color: white;
